@@ -67,9 +67,15 @@ The I<zopfli> library only contains one single compression function, which
 is directly available via I<Compress::Zopfli>. It supports three different
 compression variations:
 
-- I<ZOPFLI_FORMAT_GZIP>: RFC 1952
-- I<ZOPFLI_FORMAT_ZLIB>: RFC 1950
-- I<ZOPFLI_FORMAT_DEFLATE>: RFC 1951
+=over
+
+=item I<ZOPFLI_FORMAT_GZIP>: RFC 1952
+
+=item I<ZOPFLI_FORMAT_ZLIB>: RFC 1950
+
+=item I<ZOPFLI_FORMAT_DEFLATE>: RFC 1951
+
+=back
 
 The constants are exported by default.
 
